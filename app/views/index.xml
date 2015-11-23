@@ -1,0 +1,12 @@
+<Alloy>
+	<Window class="container" onOpen="doopen">
+		<Menu id="menu" platform="android">
+			<MenuItem id="menuItem" title="Search" icon="Ti.Android.R.drawable.ic_menu_search" onClick="onsearchclick" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+			<MenuItem id="menuItem" title="Save" icon="Ti.Android.R.drawable.ic_menu_save" onClick="onsaveclick" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+			<MenuItem id="menuItem" title="Share" icon="Ti.Android.R.drawable.ic_menu_share" onClick="onshareclick" showAsAction="Ti.Android.SHOW_AS_ACTION_ALWAYS" />
+			<MenuItem id="menuItem" title="About" onClick="onaboutclick" showAsAction="Ti.Android.SHOW_AS_ACTION_NEVER" />
+			<MenuItem id="menuItem" title="Credits" onClick="oncreditsclick" showAsAction="Ti.Android.SHOW_AS_ACTION_NEVER" />
+			<MenuItem id="menuItem" title="Debits" onClick="ondebitsclick" showAsAction="Ti.Android.SHOW_AS_ACTION_NEVER" />
+		</Menu>
+	</Window>
+</Alloy>
